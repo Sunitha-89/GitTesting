@@ -9,9 +9,9 @@ import org.eclipse.jgit.api.Git;
 public class App {
     public static void main(String[] args) {
         GitServiceimpl gitService = new GitServiceimpl();
-        String gitUrl = "https://github.com/Sunitha-89/Test.git";
-        String user = "Sunitha-89"; // Replace with your Git username
-        String token = "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"; // Replace with your Git token
+        String gitUrl = "";
+        String user = ""; // Replace with your Git username
+        String token = ""; // Replace with your Git token
         String localDirPath = "C:\\Users\\SunithaGM\\Desktop\\New folder"; // Replace with the path to your local directory
 
         
